@@ -5,7 +5,7 @@ An interactive financial data analysis tool using the WRDS database, built with 
 
 ## Author
 Your Name
-Student ID
+Wen.Ding
 
 ## Project Overview
 This tool connects to WRDS (Wharton Research Data Services), retrieves stock data from CRSP, and provides interactive visualizations and summary statistics for financial analysis.
