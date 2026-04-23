@@ -1,34 +1,34 @@
-[README.md.txt](https://github.com/user-attachments/files/26973350/README.md.txt)
-
-# WRDS Stock Analysis Tool
-An interactive financial data analysis tool using the WRDS database, built with Streamlit.
-
-## Author
-Wen.Ding
-2470050
-
-## Project Overview
-This tool connects to WRDS (Wharton Research Data Services), retrieves stock data from CRSP, and provides interactive visualizations and summary statistics for financial analysis.
-
-## Data Source
-- CRSP Daily Stock File (dsf)
-- Period: 2020–2024
-- Identifier: PERMNO
-
-## Features
-- Secure connection to WRDS via SQL query
-- Stock price trend visualization
-- Daily return distribution histogram
-- Automatic data cleaning and missing value handling
-- Interactive web interface with real-time metrics
-- Data preview and descriptive statistics
-- Support for multiple PERMNO stock analysis
-
-## Requirements
-pip install streamlit wrds pandas matplotlib numpy
-
-## How to Run
+WRDS Stock Analysis Tool - Track 4 Interactive Data Product
+An interactive stock data analysis tool built with Python and Streamlit, using WRDS CRSP daily stock data.
+Project Overview
+This tool allows users to easily retrieve, visualize, and compare historical stock data without writing complex SQL or Python code. It is designed for finance students and researchers to support coursework and basic empirical analysis.
+Analytical Problem
+Many users struggle with database connections, date formatting issues, and multi-stock comparison. This tool automates data extraction, cleaning, and visualization.
+Dataset
+Source: WRDS CRSP Daily Stock File (dsf)
+Variables: permno, date, price (prc), return (ret), shares outstanding (shrout)
+Reason: Academically reliable, standardized, and widely used in finance research
+Python Libraries Used
+wrds: Database connection and SQL queries
+pandas: Data cleaning and processing
+plotly: Interactive visualizations
+streamlit: Web interface
+Key Features
+Multi-stock support (comma-separated PERMNOs)
+Interactive price, return, and cumulative return charts
+Data table preview
+CSV download function
+Fixed date-format bug for accurate data retrieval
+How to Run
+Install required packages:
+pip install wrds pandas plotly streamlit
+Run the app:
 streamlit run app.py
-
-## Tools Used
-Python, Streamlit, WRDS, Pandas, Matplotlib, SQL
+Limitations
+Requires a valid WRDS account
+Only supports CRSP daily stock data
+No advanced financial ratios or risk metrics
+Future Improvements
+Add financial statement data from Compustat
+Include Sharpe ratio and volatility calculations
+Enhance error handling and user feedback
