@@ -22,6 +22,7 @@ This tool connects to WRDS (Wharton Research Data Services), retrieves stock dat
 - Automatic data cleaning and missing value handling
 - Interactive web interface with real-time metrics
 - Data preview and descriptive statistics
+- Support for multiple PERMNO stock analysis
 
 ## Requirements
 pip install streamlit wrds pandas matplotlib numpy
