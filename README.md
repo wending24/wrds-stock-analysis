@@ -2,8 +2,8 @@
 An interactive stock data analysis tool built with Python and Streamlit, using WRDS CRSP daily stock data.
 
 ## Author
-Your Name
-Student ID: XXXXXXX
+wending
+Student ID: 2470050
 
 ## Project Overview
 This tool allows users to easily retrieve, visualize, and compare historical stock data without writing complex SQL or Python code. It is designed for finance students and researchers to support coursework and basic empirical analysis.
