@@ -29,6 +29,9 @@ Reason: Academically reliable, standardized, and widely used in finance research
 - CSV download function
 - Fixed date-format bug for accurate data retrieval
 
+#### demo video
+https://b23.tv/7q3nQ15
+
 ## How to Run
 1. Install required packages:
    ```bash
